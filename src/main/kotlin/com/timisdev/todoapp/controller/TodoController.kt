@@ -9,10 +9,10 @@ data class Todo (
 )
 
 @RestController
-@RequestMapping("/todo")
+@RequestMapping("/api/v1/todo")
 class TodoController {
     
-    @GetMapping("/")
+    @GetMapping()
     fun getTodos(): ArrayList<Todo> {
         
         val list = arrayListOf(
