@@ -1,5 +1,5 @@
 # TODO App - REST API Documentation
-RESTful API Designed in Node.js for a very simple TODO application.
+RESTful API Designed in Kotlin and Spring for a very simple TODO application.
 
 ## Index
 * [Requirements](#requirements)
